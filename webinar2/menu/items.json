@@ -1,0 +1,41 @@
+[{
+	"href": "/",
+	"name": "Главная"
+},
+{
+	"href": "/catalog",
+	"name": "Каталог",
+	"items": [{
+			"href": "/cat1",
+			"name": "Товар 1"
+			},
+			{
+			"href": "/cat2",
+			"name": "Товар 2"
+			},
+			{
+			"href": "/cat3",
+			"name": "Товар 3"
+			},
+			{
+			"href": "/cat4",
+			"name": "Товар 4"
+			}]
+
+},
+{
+	"href": "/gallery",
+	"name": "Галерея",
+	"items": [{
+			"href": "/photo1",
+			"name": "Фото 1"
+			},
+			{
+			"href": "/photo2",
+			"name": "Фото 2"
+			},
+			{
+			"href": "/phpto3",
+			"name": "Фото 3"
+			}]
+}]
