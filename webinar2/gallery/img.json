@@ -1,0 +1,16 @@
+[
+	{
+		"thumbnail": "min1.jpg",
+		"original": "max1.jpg"
+	},
+	
+	{
+		"thumbnail": "min2.jpg",
+		"original": "max2.jpg"
+	},
+	
+	{
+		"thumbnail": "min3.jpg",
+		"original": "max3.jpg"
+	}
+]
