@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lesson6</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="main.js" defer></script>
+</head>
+<body>
+	<h1>Lesson6</h1>
+
+	<form action="" class="user-form" name="form">
+		<div class="form-group">
+			<label for="inputName">Имя</label>
+			<input type="text" class="form-control" id="inputName" placeholder="Введите имя" name="nameField">
+		</div>
+		<div class="form-group">
+			<label for="inputDate">Дата рождения - jquery-ui</label>
+			<input type="text" class="form-control" id="inputDate" placeholder="Введите дату рождения" name="dateField">
+		</div>
+		<div class="form-group">
+			<label for="inputPhone">Телефон</label>
+			<input type="tel" class="form-control" id="inputPhone" placeholder="+7(000)000-0000" name="telField">
+		</div>
+		<div class="form-group">
+			<label for="inputEmail">Email</label>
+			<input type="email" class="form-control" id="inputEmail" placeholder="Введите email" name="emailField">
+		</div>
+		<div class="form-group">
+			<label for="inputText">Текст</label>
+			<input type="text" class="form-control" id="inputText" placeholder="Введите текст" name="textField">
+		</div>
+		<button type="submit" class="btn-send" name="btnSend">Отправить</button>
+	</form>
+
+	<div id="errName" title="Только буквы в имени!"></div>
+	<div id="errTel" title="Шаблон: +7(000)000-0000!"></div>
+	<div id="errEmail" title="Шаблон Email: mymail@mail.ru"></div>
+
+	<div class="img">
+	<img id="img1" src="img/lev_karamel.jpg" alt="1">
+	<img id="img2" src="img/lev_toffee.jpg" alt="2">
+	<img id="img3" src="img/lev_tropiki.jpg" alt="3">
+	</div>
+
+	<div class="slider"></div>
+
+</body>
+</html>
