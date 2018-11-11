@@ -1,0 +1,34 @@
+{
+  "review": [
+    {
+      "id": 1,
+      "text": "Текст отзыва 1",
+      "class": "delete"
+    },
+    {
+      "id": 2,
+      "text": "Текст отзыва 2",
+      "class": "approve"
+    },
+    {
+      "id": 3,
+      "text": "Текст отзыва 3",
+      "class": "approve"
+    },
+    {
+      "id": 4,
+      "text": "Текст отзыва 4",
+      "class": "delete"
+    },
+    {
+      "id": 5,
+      "text": "Текст отзыва 5",
+      "class": "null"
+    },
+    {
+      "id": 6,
+      "text": "Текст отзыва 6",
+      "class": "null"
+    }    
+  ]
+}
